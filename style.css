@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('fonts/Barlow-Regular.woff2') format('woff2'),
+        url('fonts/Barlow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #EFF6FF;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+}
+
+.bg-container {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 30px;
+}
+
+.container {
+    padding-left: 50px;
+    width: 600px;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin-top: 40px;
+}
+
+.header p {
+    padding-bottom: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    width: 250px;
+    height: 40px;
+    border: none;
+    color: white;
+    position: relative;
+}
+
+.buttons button img {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 12px;
+    left: 16px;
+}
+
+
+.fb {
+    background-color: #255A9B;
+}
+
+.lk {
+    background-color: #0076B6;
+}
+
+.or-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.or-section hr {
+    flex-grow: 1;
+    align-self: center;
+}
+
+.or-section span {
+    flex-grow: 0.5;
+    display: flex;
+    justify-content: center;
+}
+
+.email-ph {
+    position: relative;
+    margin-bottom: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-ph input {
+    width: 100%;
+    padding: 20px 10px 8px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.email-ph label {
+    color: #999;
+    font-size: 12px;
+}
+
+.investor {
+    margin-bottom: 50px;
+}
+
+.investor h2 {
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.options input {
+    margin-right: 10px;
+}
+
+.info-box {
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    color: #666;
+    max-width: 280px;
+    margin-bottom: 50px;
+}
+
+.agree {
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+
+.agree input {
+    margin-right: 10px;
+}
+
+.create-button {
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3698FB;
+    color: white;
+}
+
+button,
+.options input {
+    cursor: pointer;
+}
