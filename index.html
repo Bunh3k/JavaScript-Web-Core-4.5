@@ -9,54 +9,60 @@
 </head>
 
 <body>
-    <div class="bg-container">
-        <img src="img/bg.jpg" alt="Background" class="bg-img">
-        <img src="img/logo.svg" alt="Logo" class="logo">
-    </div>
-    <div class="container">
-        <div class="header">
-            <h1>Get iintoo it today</h1>
-            <p>There is no charge or obligation upon registration.</p>
-            <div class="buttons">
-                <button class="fb"><img src="img/facebook.svg">Register with Facebook</a></button>
-                <button class="lk"><img src="img/linkedin.svg">Register with Linkedin</a></button>
+    <div class="big-container">
+        <div class="left-container">
+            <img src="img/bg.jpg" alt="Background" class="bg-img">
+            <img src="img/logo.svg" alt="Logo" class="logo">
+        </div>
+        <div class="right-container">
+            <div class="header">
+                <h1>Get iintoo it today</h1>
+                <p>There is no charge or obligation upon registration.</p>
+                <div class="register-buttons">
+                    <button class="fb"><img src="img/facebook.svg">Register with Facebook</button>
+                    <button class="lk"><img src="img/linkedin.svg">Register with Linkedin</button>
+                </div>
             </div>
-        </div>
-        <div class="or-section">
-            <hr><span>OR</span>
-            <hr>
-        </div>
-        <div class="email-ph">
-            <div>
-                <label for="email">Email<input type="text" name="email" required></label>
+            <div class="or-section">
+                <div class="line"></div>
+                <span>OR</span>
+                <div class="line"></div>
             </div>
-            <div>
-                <label for="phone">Phone<input type="text" name="phone" required></label>
+            <div class="input-box-container">
+                <div class="input-box email-box">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" required>
+                </div>
+                <div class="input-box">
+                    <label for="phone">Phone</label>
+                    <input type="text" name="phone" required>
+                </div>
             </div>
-        </div>
-        <div class="investor">
-            <h2>What type of investor are you?</h2>
-            <p>Select the type of investor in below.</p>
-        </div>
-        <div class="options">
-            <label><input type="radio" name="option">Individual</label>
+            <div class="investor">
+                <h2>What type of investor are you?</h2>
+                <p>Select the type of investor in below.</p>
+            </div>
+            <div class="options">
+                <label><input type="radio" name="option">Individual <small>ⓘ</small></label>
 
-            <label><input type="radio" name="option">Business</label>
+                <label><input type="radio" name="option">Business <small>ⓘ</small></label>
 
-            <label><input type="radio" name="option">IRA</label>
+                <label><input type="radio" name="option">IRA <small>ⓘ</small></label>
 
-            <label><input type="radio" name="option">Trust</label>
+                <label><input type="radio" name="option">Trust <small>ⓘ</small></label>
+            </div>
+
+            <div class="info-box">
+                I am a natural person investing on my own behalf as a sole owner, joint talent or tenant in common.
+            </div>
+
+            <div class="agree">
+                <label><input type="checkbox">I agree for the terms and receiving notification from iintoo <a
+                        href="#">View
+                        full terms</a></label>
+            </div>
+            <button class="create-button">Create Account</button>
         </div>
-
-        <div class="info-box">
-            I am a natural person investing on my own behalf as a sole owner, joint talent or tenant in common.
-        </div>
-
-        <div class="agree">
-            <label><input type="checkbox">I agree for the terms and receiving notification from iintoo <a href="#">View
-                    full terms</a></label>
-        </div>
-        <button class="create-button">Create Account</button>
     </div>
 </body>
 
